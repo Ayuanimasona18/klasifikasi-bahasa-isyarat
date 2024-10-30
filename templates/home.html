@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"> </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <title>Sign Language</title>
+  </head>
+  <body style="background-color: #E8F6FF; font-family:Poppins;">
+    <nav class="navbar navbar-light bg-white navbar-expand-lg nav">
+        <a class="navbar-brand" href="/">
+            <img src="{{ url_for('static', filename='images/logos.png') }}" alt="Logo" width="50" height="50">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto ml-5">
+                <li class="nav-item mx-3 ml-3">
+                    <a class="nav-link text-primary" href="/"><b>Home</b></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link text-dark" href="/detect"><b>Detect</b></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link text-dark" href="#about"><b>About</b></a>
+                </li>
+            </ul>
+        </div>
+        <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon mx-2"></span>
+        </button>
+    </nav>
+<!-- isi home -->
+   <section id="home">
+    <div class="container-home">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Selamat datang di website Bahasa Isyarat!</h2>
+          <p>Kami berdedikasi untuk memberikan informasi tentang bahasa isyarat khususnya pada pengenalan Alfabet.</p>
+        </div>
+        <div class="col-md-6">
+          <!-- Gambar Home -->
+          <div class="sign-language-icon">
+            <img src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2024/04/09/sejarah-bahasa-isyaratjpg-20240409103247.jpg" alt="" width="500px">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Garis Home -->
+    <div id="garis-strip">
+      <div class="garis">
+        <div class="black"></div>
+        <div class="blue"></div>
+      </div>
+    </div>
+   </section>
+    
+    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(21, 21, 21, 1)" offset="0%"></stop><stop stop-color="rgba(22, 121, 171, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,196L60,196C120,196,240,196,360,236.8C480,278,600,359,720,367.5C840,376,960,310,1080,294C1200,278,1320,310,1440,294C1560,278,1680,212,1800,179.7C1920,147,2040,147,2160,179.7C2280,212,2400,278,2520,285.8C2640,294,2760,245,2880,187.8C3000,131,3120,65,3240,81.7C3360,98,3480,196,3600,253.2C3720,310,3840,327,3960,285.8C4080,245,4200,147,4320,147C4440,147,4560,245,4680,253.2C4800,261,4920,180,5040,130.7C5160,82,5280,65,5400,57.2C5520,49,5640,49,5760,106.2C5880,163,6000,278,6120,310.3C6240,343,6360,294,6480,294C6600,294,6720,343,6840,351.2C6960,359,7080,327,7200,326.7C7320,327,7440,359,7560,318.5C7680,278,7800,163,7920,106.2C8040,49,8160,49,8280,98C8400,147,8520,245,8580,294L8640,343L8640,490L8580,490C8520,490,8400,490,8280,490C8160,490,8040,490,7920,490C7800,490,7680,490,7560,490C7440,490,7320,490,7200,490C7080,490,6960,490,6840,490C6720,490,6600,490,6480,490C6360,490,6240,490,6120,490C6000,490,5880,490,5760,490C5640,490,5520,490,5400,490C5280,490,5160,490,5040,490C4920,490,4800,490,4680,490C4560,490,4440,490,4320,490C4200,490,4080,490,3960,490C3840,490,3720,490,3600,490C3480,490,3360,490,3240,490C3120,490,3000,490,2880,490C2760,490,2640,490,2520,490C2400,490,2280,490,2160,490C2040,490,1920,490,1800,490C1680,490,1560,490,1440,490C1320,490,1200,490,1080,490C960,490,840,490,720,490C600,490,480,490,360,490C240,490,120,490,60,490L0,490Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(21, 21, 21, 1)" offset="0%"></stop><stop stop-color="rgba(22, 121, 171, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,343L60,285.8C120,229,240,114,360,130.7C480,147,600,294,720,367.5C840,441,960,441,1080,392C1200,343,1320,245,1440,245C1560,245,1680,343,1800,392C1920,441,2040,441,2160,408.3C2280,376,2400,310,2520,261.3C2640,212,2760,180,2880,163.3C3000,147,3120,147,3240,187.8C3360,229,3480,310,3600,359.3C3720,408,3840,425,3960,383.8C4080,343,4200,245,4320,179.7C4440,114,4560,82,4680,130.7C4800,180,4920,310,5040,310.3C5160,310,5280,180,5400,171.5C5520,163,5640,278,5760,285.8C5880,294,6000,196,6120,147C6240,98,6360,98,6480,155.2C6600,212,6720,327,6840,359.3C6960,392,7080,343,7200,277.7C7320,212,7440,131,7560,106.2C7680,82,7800,114,7920,155.2C8040,196,8160,245,8280,236.8C8400,229,8520,163,8580,130.7L8640,98L8640,490L8580,490C8520,490,8400,490,8280,490C8160,490,8040,490,7920,490C7800,490,7680,490,7560,490C7440,490,7320,490,7200,490C7080,490,6960,490,6840,490C6720,490,6600,490,6480,490C6360,490,6240,490,6120,490C6000,490,5880,490,5760,490C5640,490,5520,490,5400,490C5280,490,5160,490,5040,490C4920,490,4800,490,4680,490C4560,490,4440,490,4320,490C4200,490,4080,490,3960,490C3840,490,3720,490,3600,490C3480,490,3360,490,3240,490C3120,490,3000,490,2880,490C2760,490,2640,490,2520,490C2400,490,2280,490,2160,490C2040,490,1920,490,1800,490C1680,490,1560,490,1440,490C1320,490,1200,490,1080,490C960,490,840,490,720,490C600,490,480,490,360,490C240,490,120,490,60,490L0,490Z"></path><defs><linearGradient id="sw-gradient-2" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(21, 21, 21, 1)" offset="0%"></stop><stop stop-color="rgba(22, 121, 171, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 100px); opacity:0.8" fill="url(#sw-gradient-2)" d="M0,147L60,163.3C120,180,240,212,360,220.5C480,229,600,212,720,171.5C840,131,960,65,1080,98C1200,131,1320,261,1440,302.2C1560,343,1680,294,1800,245C1920,196,2040,147,2160,163.3C2280,180,2400,261,2520,277.7C2640,294,2760,245,2880,187.8C3000,131,3120,65,3240,89.8C3360,114,3480,229,3600,277.7C3720,327,3840,310,3960,261.3C4080,212,4200,131,4320,138.8C4440,147,4560,245,4680,294C4800,343,4920,343,5040,326.7C5160,310,5280,278,5400,277.7C5520,278,5640,310,5760,269.5C5880,229,6000,114,6120,98C6240,82,6360,163,6480,220.5C6600,278,6720,310,6840,277.7C6960,245,7080,147,7200,130.7C7320,114,7440,180,7560,204.2C7680,229,7800,212,7920,228.7C8040,245,8160,294,8280,294C8400,294,8520,245,8580,220.5L8640,196L8640,490L8580,490C8520,490,8400,490,8280,490C8160,490,8040,490,7920,490C7800,490,7680,490,7560,490C7440,490,7320,490,7200,490C7080,490,6960,490,6840,490C6720,490,6600,490,6480,490C6360,490,6240,490,6120,490C6000,490,5880,490,5760,490C5640,490,5520,490,5400,490C5280,490,5160,490,5040,490C4920,490,4800,490,4680,490C4560,490,4440,490,4320,490C4200,490,4080,490,3960,490C3840,490,3720,490,3600,490C3480,490,3360,490,3240,490C3120,490,3000,490,2880,490C2760,490,2640,490,2520,490C2400,490,2280,490,2160,490C2040,490,1920,490,1800,490C1680,490,1560,490,1440,490C1320,490,1200,490,1080,490C960,490,840,490,720,490C600,490,480,490,360,490C240,490,120,490,60,490L0,490Z"></path></svg>
+    <!-- konten About -->
+    <section id="about">
+      <div class="container-about">
+        <div class="judul-about">
+          <h2>Massive Internal</h2>
+          <h2>Kelompok&#128076</h2>
+        </div>
+        <div class="konten-about">
+          <img src="https://img.freepik.com/free-vector/deaf-man-woman-communicating-through-sign-language-disabled-people-talking-huge-ear-flat-illustration_74855-18731.jpg" alt="">
+          <p>
+            <span>Hai&#128075</span>Kami dari kelompok tiga Massive Internal yang memiliki minat yang sama dalam membantu masyarakat, terutama penyandang disabilitas, seperti tunarungu.
+            Kami fokus pada pengembangan teknologi untuk mendukung penyandang disabilitas, termasuk pengembangan dalam bahasa isyarat.
+            Tugas kami adalah menyediakan informasi tentang bahasa isyarat, terutama pengenalan alfabet. Kami percaya pemahaman bahasa isyarat akan meningkatkan inklusivitas komunikasi dengan semua orang, tanpa memandang kondisi fisik.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

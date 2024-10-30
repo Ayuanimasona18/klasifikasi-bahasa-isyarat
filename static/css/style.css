@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  color: #343a40;
+}
+h2 {
+  color: #6c757d;
+}
+#video {
+  border: 2px solid #6c757d;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+form {
+  margin: 20px 0;
+}
+input[type="file"] {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+input[type="submit"] {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+#camera-result, #upload-result {
+  color: #17a2b8;
+  font-weight: bold;
+}

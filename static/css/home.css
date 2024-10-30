@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-home{
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.col-md-6 > h2{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-language-icon > img{
+    border-radius: 40px;
+    margin-left: 70px;
+}
+.garis > .black{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+}
+.garis > .blue{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(82, 136, 187);
+}
+.garis {
+    display: flex;
+    column-gap: 20px;
+    margin-left: 20px;
+    margin-top: -50px; 
+}
+#wave{
+    margin-top: -80px; 
+}
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 50; 
+}
+.judul-about{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.konten-about{
+    margin-top: 80px;
+    display: flex;
+    column-gap: 40px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.konten-about > img{
+    border-radius: 60px;
+    margin-left: 20px;
+}
+span{
+    font-size: 50px;
+    font-family: Serif;
+    
+}
